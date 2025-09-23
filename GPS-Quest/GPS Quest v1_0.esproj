@@ -1,0 +1,57 @@
+studioVersion:
+  major: 5
+  minor: 12
+  patch: 1
+  build: 25080420
+  type: Public
+coreVersion: 321
+clientVersion: 13.500000
+updateCheckpoint: 68
+sceneId: 0a1ccb1a-fe88-4fbb-9883-e3af3c75fd99
+viewConfig:
+  simulation:
+    device: Spectacles (2024)
+    cameraFov: nan
+    fullFrameAspect: 0.666660
+    resolutionScale: 1.000000
+    viewport: Maximized
+    output: Live
+    stereoOutputEye: Center
+    deviceTypeOverride: Spectacles
+    tint: true
+    screenshot: false
+    videoScreenRecord: false
+  cameraType: Front
+metaInfo:
+  hints:
+    []
+  tags:
+    []
+  lensName: GPS Quest
+  lensDescriptors:
+    []
+  lensApplicability:
+    - Front
+    - Back
+  lensClientCompatibilities:
+    - Spectacles
+  platformBundlesEnabled: false
+  iconHash: ""
+  videoPreviewHash: ""
+  fromTemplateName: Navigation Kit
+  fromTemplateUrl: Lens Studio 5.10.1.25061003
+  activationCamera: Front
+  sourceMapEnabled: false
+  usingMinClientVersions: false
+  androidMinClientVersion:
+    major: 0
+    minor: 0
+    patch: 0
+    build: 0
+  iOSMinClientVersion:
+    major: 0
+    minor: 0
+    patch: 0
+    build: 0
+  documentId: bf88ca5b-ee80-43bb-96a5-f3fd8ebfcf3a
+  originalDocumentId: 2dcf2873-4726-47ea-98da-1e7147a128ac

@@ -1,0 +1,53 @@
+- !<AssetImportMetadata/86b286af-529b-443f-84cf-975736d6028b>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 70df8d0d-94bc-40f1-9444-60debfb7d8d6
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 70df8d0d-94bc-40f1-9444-60debfb7d8d6
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 99332803-9e1a-47bd-a848-aac0c691c997
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/99332803-9e1a-47bd-a848-aac0c691c997>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 3747229e-7626-4579-8389-de9c0ccf1b1b
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    autoSpawn: false
+    firstLastPrefab: false
+    navigationDataComponent: false
+    placePrefab: false
+    smoothingFactor: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - navigationDataComponent: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      placePrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      firstLastPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      autoSpawn: true
+      smoothingFactor: 0.100000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input AssignableType navigationDataComponent
+    - // @input Asset.ObjectPrefab placePrefab
+    - // @input Asset.ObjectPrefab firstLastPrefab
+    - // @input bool autoSpawn = true
+    - // @input float smoothingFactor = 0.1

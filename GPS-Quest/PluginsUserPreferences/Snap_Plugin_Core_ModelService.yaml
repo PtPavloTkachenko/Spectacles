@@ -1,0 +1,14 @@
+ExternalSources:
+  type: "std::map<Es::Uuid, Es::Path>"
+  value:
+    - 0366462f-59a5-4b7a-9917-36942b76b58d: "/Users/pavlotkachenko/Dropbox (Personal)/Snapchat/Spectacles/Projects/005.GPS World Quest/GPS Quest v1_1/Assets/SpectaclesNavigationKit.lspkg/ARNavigationComponent/ARNavigationPrefab [PUT_IN_SCENE].prefab"
+    - 0521a18a-c9ca-4ec3-88cb-3a9b2560196b: /Users/pavlotkachenko/Dropbox (Personal)/Snapchat/Spectacles/Projects/005.GPS World Quest/GPS Quest v1_1/Assets/MapComponent/MapContainerController.ts
+    - 0edfd2b8-a862-47c8-9c1e-f066e7ee917e: /Applications/5.10.1.app/Contents/JsPlugins/PresetsRegistry/Assets/Meshes/Resources/Plane.mesh
+    - 19cafc24-947b-4794-9b89-b638749427ba: /Users/pavlotkachenko/Library/Preferences/Snap/Lens Studio/LibraryComponents/SpectaclesInteractionKit.lspkg
+    - 86b286af-529b-443f-84cf-975736d6028b: /Users/pavlotkachenko/Dropbox (Personal)/Snapchat/Spectacles/Projects/004.ARun/ARun_v0_1/Assets/SpectaclesNavigationKit.lspkg/NavigationDataComponent/WorldController.ts
+    - 8d958193-b1f5-4bea-acce-2fa98db5486c: /Users/pavlotkachenko/Dropbox (Personal)/Snapchat/Spectacles/Projects/005.GPS World Quest/Assets/Arrow.fbx
+    - 8e94ca7d-070e-4222-b4ba-c27476e65f60: "/Users/pavlotkachenko/Dropbox (Personal)/Snapchat/Spectacles/Projects/005.GPS World Quest/GPS Quest v1_1/Assets/SpectaclesNavigationKit.lspkg/ARNavigationComponent/ARNavigation_Camera [PUT_UNDER_CAMERA].prefab"
+    - 97b3935e-1436-44b1-ab76-fb77c1bea48e: /Applications/LS 5.12.1.app/Contents/Plugins/Es_ShaderGraph_Presets.bundle/Assets/Empty.ss_graph
+    - a823c33d-86e5-423b-9c7a-59cffcd0fd3f: /Applications/5.10.1.app/Contents/JsPlugins/PresetsRegistry/Assets/UnlitMaterial/Resources/unlit.ss_graph
+    - d4c03b3c-4a76-30b0-5fca-5a299949e93b: /Users/pavlotkachenko/Dropbox (Personal)/Snapchat/Spectacles/Projects/005.GPS World Quest/GPS Quest v1_1/Assets/SpectaclesNavigationKit.lspkg/ARNavigationComponent/Shader/Arrow_shader.ss_graph
+  options: 4

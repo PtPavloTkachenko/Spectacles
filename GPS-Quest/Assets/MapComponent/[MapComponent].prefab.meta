@@ -1,0 +1,179 @@
+- !<AssetImportMetadata/86c93817-f393-45c7-accd-b836634e1e4d>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 9f6936fc-b373-482f-83f6-0d816f9d53e9
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 9f6936fc-b373-482f-83f6-0d816f9d53e9
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> e11fb75b-555d-4e1f-b806-3dbf11578d9b
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptComponent/0041a36b-1a2f-4cfb-843f-28dfd5d67d7d>
+  PrefabRemaps:
+    []
+  Name: MapComponent
+  Enabled: true
+  ScriptAsset: !<reference> d30bfc41-c132-4cbe-9b45-6c53e416915f
+  ScriptInputsDefault:
+    userPinMinimizedScale: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      tileCount: !<float> 3.000000
+      mapRenderParent: !<reference.SceneObject> 9a088e69-7af1-4bba-b90d-ddd1c17e6a88
+      navigationComponent: !<MappingBased.AssignableType> d4d735fd-a9c7-4a35-983a-3ec25ac2d753
+      mapZoomLevel: !<float> 16.000000
+      showUserPin: true
+      userPinVisual: !<reference.ObjectPrefab> 595354e2-495b-4054-acdc-1ee116fd1147
+      userPinScale: !<Vec2> {x: 3.000000, y: 3.000000}
+      userPinMinimizedScale: !<float> 1.000000
+      userPinAlignedWithOrientation: true
+      mapPinPrefab: !<reference.ObjectPrefab> fc18f04a-99f6-4608-a33f-a6ce4936aec6
+      mapPinsRotated: true
+      isMinimapAutoRotate: true
+      enableMapSmoothing: true
+      mapUpdateThreshold: 0.010000
+  ScriptTypes:
+    "":
+      {}
+- !<ObjectPrefab/2f3a0234-85e9-4838-8f4b-fc0f49380487>
+  PackagePath: ""
+  objects:
+    - !<own> 741b1bde-7179-46bf-80d8-16ba7b5774ac
+  LazyLoading: false
+  RetainAssets: true
+- !<Image/55d9e4bd-165e-4178-ab69-5eef6f95455e>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: -2
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 707387c9-3c6b-4716-8644-20534ca5774c
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<ScriptComponent/656527c0-c142-4e88-b6e9-d668d45af80c>
+  PrefabRemaps:
+    []
+  Name: AddPlacesToMapComponent
+  Enabled: true
+  ScriptAsset: !<reference> 32f0c0c9-da39-41a4-bb92-4a1073c90812
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      navigationComponent: !<MappingBased.AssignableType> d4d735fd-a9c7-4a35-983a-3ec25ac2d753
+      mapComponent: !<MappingBased.AssignableType_1> 0041a36b-1a2f-4cfb-843f-28dfd5d67d7d
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/741b1bde-7179-46bf-80d8-16ba7b5774ac>
+  PrefabRemaps:
+    []
+  Name: "[MapComponent]"
+  Enabled: true
+  Layers: 1048576
+  LocalTransform: !<TransformEntity>
+    Position: {x: 15.000000, y: 22.000000, z: -100.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 7d00f26f-c4fe-4033-9150-87651863db7f
+  Components:
+    - !<own> 0041a36b-1a2f-4cfb-843f-28dfd5d67d7d
+    - !<own> 656527c0-c142-4e88-b6e9-d668d45af80c
+    - !<own> 7d0f761a-b59f-4ead-8ee0-21e87755d391
+- !<SceneObject/7d00f26f-c4fe-4033-9150-87651863db7f>
+  PrefabRemaps:
+    []
+  Name: Container
+  Enabled: true
+  Layers: 1048576
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 9a088e69-7af1-4bba-b90d-ddd1c17e6a88
+    - !<own> e86d1634-6afa-4f65-8b51-f3d48a18964f
+  Components:
+    []
+- !<ScriptComponent/7d0f761a-b59f-4ead-8ee0-21e87755d391>
+  PrefabRemaps:
+    []
+  Name: HeadDirectionLerper
+  Enabled: true
+  ScriptAsset: !<reference> 16a36ae0-258e-404d-83d1-dd56403e0136
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      camera: !<reference.Camera> 00000000-0000-0065-0000-000000000065
+      maxOffset: 0.200000
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/9a088e69-7af1-4bba-b90d-ddd1c17e6a88>
+  PrefabRemaps:
+    []
+  Name: Map Render
+  Enabled: true
+  Layers: 1048576
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<ObjectPrefabAssetData/e11fb75b-555d-4e1f-b806-3dbf11578d9b>
+  SourceRemaps:
+    - 038e8ba1-191b-43f0-87c3-19d04ce49cdb: 9a088e69-7af1-4bba-b90d-ddd1c17e6a88
+    - 118b798a-c750-4c34-a6c6-7184784421dd: 7d0f761a-b59f-4ead-8ee0-21e87755d391
+    - 137d47ab-e1d0-4fd0-96af-63cab1c1fc88: 656527c0-c142-4e88-b6e9-d668d45af80c
+    - 5ae01f61-3563-4fe5-9162-77306d08c127: 741b1bde-7179-46bf-80d8-16ba7b5774ac
+    - 70c95a74-3bc9-4c82-9a10-a339b939c0a4: 0041a36b-1a2f-4cfb-843f-28dfd5d67d7d
+    - 9f6936fc-b373-482f-83f6-0d816f9d53e9: 2f3a0234-85e9-4838-8f4b-fc0f49380487
+    - c4b4e876-581a-41f2-9e3d-a2146e2909c8: 55d9e4bd-165e-4178-ab69-5eef6f95455e
+    - c7c1c972-9f0e-4fde-b9fe-3839077093be: 7d00f26f-c4fe-4033-9150-87651863db7f
+    - fe49b384-9fcc-474c-a0a4-19dd001a88ff: e86d1634-6afa-4f65-8b51-f3d48a18964f
+  SourceState: !<own> 2f3a0234-85e9-4838-8f4b-fc0f49380487
+- !<SceneObject/e86d1634-6afa-4f65-8b51-f3d48a18964f>
+  PrefabRemaps:
+    []
+  Name: Outline
+  Enabled: true
+  Layers: 1048576
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 16.000000, y: 16.000000, z: 16.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 55d9e4bd-165e-4178-ab69-5eef6f95455e

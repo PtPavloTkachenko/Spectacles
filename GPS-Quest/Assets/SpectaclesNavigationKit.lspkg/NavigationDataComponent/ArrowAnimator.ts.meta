@@ -1,0 +1,44 @@
+- !<AssetImportMetadata/0ec73d9a-18b9-6275-0e66-df668920958d>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 975246f3-41a6-4f94-ae22-7a8b36163ba3
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 975246f3-41a6-4f94-ae22-7a8b36163ba3
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 63d8f1fc-6b22-477a-8bec-f36201443b47
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/63d8f1fc-6b22-477a-8bec-f36201443b47>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: b54f513b-5a77-4dea-a4a0-744384859f60
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    endScale: false
+    startScale: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - startScale: !<Vec3> {x: 55.000000, y: 45.000000, z: 45.000000}
+      endScale: !<Vec3> {x: 50.000000, y: 50.000000, z: 50.000000}
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - "// @input vec3 startScale = {55,45,45}"
+    - "// @input vec3 endScale = {50,50,50}"

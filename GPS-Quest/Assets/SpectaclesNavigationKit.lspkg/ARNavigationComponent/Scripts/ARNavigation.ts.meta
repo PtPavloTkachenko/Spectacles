@@ -1,0 +1,59 @@
+- !<AssetImportMetadata/e0f95575-2c8e-96c4-ed84-bd02a3ec27f4>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> a4af9554-7a86-42c5-a7ce-1016d20ec605
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> a4af9554-7a86-42c5-a7ce-1016d20ec605
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 60de8961-ff2e-494a-b34e-72c22b71d6d9
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/60de8961-ff2e-494a-b34e-72c22b71d6d9>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 023b9f57-6c32-4b15-bec8-e95747cc9c8e
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    arrowRenderMeshVisual: false
+    directionalTip: false
+    hereRadius: false
+    measurementSystem: false
+    navigationDataComponent: false
+    showByDefault: false
+    targetPivot: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - navigationDataComponent: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      targetPivot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      arrowRenderMeshVisual: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+      measurementSystem: 0
+      showByDefault: false
+      hereRadius: !<float> 300.000000
+      directionalTip: !<float> 20.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input AssignableType navigationDataComponent
+    - // @input SceneObject targetPivot
+    - '// @input Component.RenderMeshVisual arrowRenderMeshVisual {"hint":"The arrow showing the direction to the selected place."}'
+    - '// @input int measurementSystem {"widget":"combobox", "values":[{"label":"Metric", "value":0}, {"label":"US", "value":1}]}'
+    - // @input bool showByDefault
+    - '// @input float hereRadius = 3 {"hint":"When within this radius, the arrow will no longer show a direction."}'
+    - '// @input float directionalTip = 20 {"hint":"An angle, in degrees, by which the arrow will be tipped forward when pointing."}'

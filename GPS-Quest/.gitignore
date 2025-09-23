@@ -1,0 +1,56 @@
+# Shipped by Lens Studio
+
+# The lines below are automatically generated and updated by Lens Studio.
+# Please do not modify them manually, as changes will be overwritten each time!
+# If you want to make changes to this file, please put them either above or below this section.
+
+Cache/**
+PluginsUserPreferences/**
+Support/**
+BackUp/**
+Workspaces/**
+.vscode/
+/jsconfig.json
+/tsconfig.json
+.DS_Store
+*.lock
+
+# Shipped by Lens Studio
+# Lens Studio specific files
+Cache/
+Temp/
+.esproj.backup
+
+# macOS specific files
+.DS_Store
+**/.DS_Store
+*.swp
+*.swo
+
+# Windows specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor specific files
+*.tmp
+*.bak
+*~
+.vscode/
+.idea/
+
+# Build artifacts
+*.build
+*.log
+
+# Package files
+*.zip
+*.rar
+*.7z
+
+# Lens Studio cache and temporary files
+/Build/
+/Library/
+/Logs/
+/UserSettings/
+*.lstemp

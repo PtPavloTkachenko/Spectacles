@@ -1,0 +1,151 @@
+- !<ObjectPrefab/9f6936fc-b373-482f-83f6-0d816f9d53e9>
+  PackagePath: ""
+  objects:
+    - !<own> 5ae01f61-3563-4fe5-9162-77306d08c127
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/038e8ba1-191b-43f0-87c3-19d04ce49cdb>
+  PrefabRemaps:
+    []
+  Name: Map Render
+  Enabled: true
+  Layers: 1048576
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<ScriptComponent/118b798a-c750-4c34-a6c6-7184784421dd>
+  PrefabRemaps:
+    []
+  Name: HeadDirectionLerper
+  Enabled: true
+  ScriptAsset: !<reference> 16a36ae0-258e-404d-83d1-dd56403e0136
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      camera: !<reference.Camera> 00000000-0000-0065-0000-000000000065
+      maxOffset: 0.200000
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/137d47ab-e1d0-4fd0-96af-63cab1c1fc88>
+  PrefabRemaps:
+    []
+  Name: AddPlacesToMapComponent
+  Enabled: true
+  ScriptAsset: !<reference> 32f0c0c9-da39-41a4-bb92-4a1073c90812
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      navigationComponent: !<MappingBased.AssignableType> d4d735fd-a9c7-4a35-983a-3ec25ac2d753
+      mapComponent: !<MappingBased.AssignableType_1> 70c95a74-3bc9-4c82-9a10-a339b939c0a4
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/5ae01f61-3563-4fe5-9162-77306d08c127>
+  PrefabRemaps:
+    []
+  Name: "[MapComponent]"
+  Enabled: true
+  Layers: 1048576
+  LocalTransform: !<TransformEntity>
+    Position: {x: 15.000000, y: 22.000000, z: -100.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> c7c1c972-9f0e-4fde-b9fe-3839077093be
+  Components:
+    - !<own> 70c95a74-3bc9-4c82-9a10-a339b939c0a4
+    - !<own> 137d47ab-e1d0-4fd0-96af-63cab1c1fc88
+    - !<own> 118b798a-c750-4c34-a6c6-7184784421dd
+- !<ScriptComponent/70c95a74-3bc9-4c82-9a10-a339b939c0a4>
+  PrefabRemaps:
+    []
+  Name: MapComponent
+  Enabled: true
+  ScriptAsset: !<reference> d30bfc41-c132-4cbe-9b45-6c53e416915f
+  ScriptInputsDefault:
+    userPinMinimizedScale: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      tileCount: !<float> 3.000000
+      mapRenderParent: !<reference.SceneObject> 038e8ba1-191b-43f0-87c3-19d04ce49cdb
+      navigationComponent: !<MappingBased.AssignableType> d4d735fd-a9c7-4a35-983a-3ec25ac2d753
+      mapZoomLevel: !<float> 16.000000
+      showUserPin: true
+      userPinVisual: !<reference.ObjectPrefab> 595354e2-495b-4054-acdc-1ee116fd1147
+      userPinScale: !<Vec2> {x: 3.000000, y: 3.000000}
+      userPinMinimizedScale: !<float> 1.000000
+      userPinAlignedWithOrientation: true
+      mapPinPrefab: !<reference.ObjectPrefab> fc18f04a-99f6-4608-a33f-a6ce4936aec6
+      mapPinsRotated: true
+      isMinimapAutoRotate: true
+      enableMapSmoothing: true
+      mapUpdateThreshold: 0.010000
+  ScriptTypes:
+    "":
+      {}
+- !<Image/c4b4e876-581a-41f2-9e3d-a2146e2909c8>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: -2
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 707387c9-3c6b-4716-8644-20534ca5774c
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/c7c1c972-9f0e-4fde-b9fe-3839077093be>
+  PrefabRemaps:
+    []
+  Name: Container
+  Enabled: true
+  Layers: 1048576
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 038e8ba1-191b-43f0-87c3-19d04ce49cdb
+    - !<own> fe49b384-9fcc-474c-a0a4-19dd001a88ff
+  Components:
+    []
+- !<SceneObject/fe49b384-9fcc-474c-a0a4-19dd001a88ff>
+  PrefabRemaps:
+    []
+  Name: Outline
+  Enabled: true
+  Layers: 1048576
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 16.000000, y: 16.000000, z: 16.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c4b4e876-581a-41f2-9e3d-a2146e2909c8

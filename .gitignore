@@ -1,0 +1,44 @@
+# Shipped by Lens Studio
+
+# The lines below are automatically generated and updated by Lens Studio.
+# Please do not modify them manually, as changes will be overwritten each time!
+# If you want to make changes to this file, please put them either above or below this section.
+
+Cache/**
+PluginsUserPreferences/**
+Support/**
+BackUp/**
+Workspaces/**
+.vscode/
+/jsconfig.json
+/tsconfig.json
+.DS_Store
+*.lock
+
+# Shipped by Lens Studio
+# General Spectacles Projects .gitignore
+
+# Lens Studio Cache (large temporary files)
+Cache/
+Temp/
+
+# macOS specific files
+.DS_Store
+**/.DS_Store
+*.swp
+*.swo
+
+# Windows specific files  
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor specific files
+*.tmp
+*.bak
+*~
+.vscode/
+.idea/
+
+# Each project has its own specific .gitignore
+# This file covers general files for the entire repository

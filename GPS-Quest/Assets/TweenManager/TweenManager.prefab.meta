@@ -1,0 +1,77 @@
+- !<AssetImportMetadata/55fb7624-6c6c-439f-86e6-379e2057454c>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> b9e4c019-08dd-4c14-91d5-224d07fea4fa
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> b9e4c019-08dd-4c14-91d5-224d07fea4fa
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 5f0b821d-62a0-4ff8-bbf6-77aa12671a3c
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefab/017ad724-e300-443e-9222-7fd8da99e985>
+  PackagePath: ""
+  objects:
+    - !<own> da90ce29-84c2-466a-b5b6-852d455e71cb
+  LazyLoading: false
+  RetainAssets: true
+- !<ScriptComponent/575fc7ef-70e1-4004-9c65-a3c09f5d8fdb>
+  PrefabRemaps:
+    []
+  Name: Tween
+  Enabled: true
+  ScriptAsset: !<reference> ec24a232-fb69-4d2b-88af-151068a599c7
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
+- !<ObjectPrefabAssetData/5f0b821d-62a0-4ff8-bbf6-77aa12671a3c>
+  SourceRemaps:
+    - 485eef91-8e3b-4639-8126-ab8cede57d75: 575fc7ef-70e1-4004-9c65-a3c09f5d8fdb
+    - b9e4c019-08dd-4c14-91d5-224d07fea4fa: 017ad724-e300-443e-9222-7fd8da99e985
+    - c5e08968-dfd5-4822-b0a5-50a431320e66: a8348411-ec93-4d27-8209-dc933566eb55
+    - ec5a8fb6-9636-4b49-90e4-646a1a4beedf: da90ce29-84c2-466a-b5b6-852d455e71cb
+  SourceState: !<own> 017ad724-e300-443e-9222-7fd8da99e985
+- !<ScriptComponent/a8348411-ec93-4d27-8209-dc933566eb55>
+  PrefabRemaps:
+    []
+  Name: TweenManager
+  Enabled: true
+  ScriptAsset: !<reference> ea75b76b-3332-4057-a4a2-9d0693b756d0
+  ScriptInputsDefault:
+    printDebugLog: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      printDebugLog: false
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/da90ce29-84c2-466a-b5b6-852d455e71cb>
+  PrefabRemaps:
+    []
+  Name: TweenManager
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 575fc7ef-70e1-4004-9c65-a3c09f5d8fdb
+    - !<own> a8348411-ec93-4d27-8209-dc933566eb55
