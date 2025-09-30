@@ -55,6 +55,10 @@ GPS Quest v1.0 is a **real-world quest template** that creates location-based ad
 
 ## 🚀 Quick Start
 
+### 📹 Video Tutorial
+
+Watch the [video tutorial](GPS%20Quest%20Tutorial.mov) for a quick walkthrough of the template features and setup.
+
 ### Prerequisites
 - Lens Studio 5.12.1 or later
 - Snapchat Spectacles (2024)
